@@ -6,7 +6,7 @@ Adobe Lightroom by default stores photos in this structure.
     + date
       + photos
 
-This scripts moves pictures from the old location to a new location keeping the folder structure. 
+This script moves pictures from the old location to a new location keeping the folder structure. 
 
 ### Before
 - old folder location
@@ -20,7 +20,7 @@ This scripts moves pictures from the old location to a new location keeping the 
     + date
       + photos
 
-After manupilating file locations, Lightroom would not be able to locate the pictures, but you can easily fix this issue by updating the folder location in Lightroom.
+After manipulating the file location, Lightroom would not be able to locate the pictures, but you can easily fix this issue by updating the folder location in Lightroom.
 
 ## How to use the scripts
 
@@ -39,3 +39,5 @@ target_dir=/Volumes/YOUR_NEW_VOLUME
 ```
 sh move_folders.sh YEAR
 ```
+
+- In Lightroom, right-click on the folder and select "Update Folder Location". Choose the new folder location, then you should be good to go! 
