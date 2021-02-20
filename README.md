@@ -1,6 +1,5 @@
 # Lightroom Folder Transfer
 
-## Description
 Adobe Lightroom by default stores photos in this structure. 
 - folder location
   * year
@@ -26,7 +25,9 @@ After manupilating file locations, Lightroom would not be able to locate the pic
 ## How to use the scripts
 
 - Get the script.
-`git clone https://github.com/keiohtani/lightroom_folder_transfer.git`
+```
+git clone https://github.com/keiohtani/lightroom_folder_transfer.git
+```
 
 - Specify the origin folder and the target folder in the script.
 ```
@@ -35,4 +36,6 @@ target_dir=/Volumes/YOUR_NEW_VOLUME
 ```
 
 - Run the script. The command takes the year as the argument. 
-`sh move_folders.sh YEAR`
+```
+sh move_folders.sh YEAR
+```
